@@ -4,28 +4,42 @@ function App() {
 
   return (
     <>
-      <h1 className='text-3xl text-center'>Vehicle Loan Calcuator</h1>
+      <h1 className='text-3xl text-center mt-11'>Vehicle Loan Calcuator</h1>
 
-      <div className='flex max-w-7xl justify-center mx-auto mt-10'>
+      <div className='flex gap-x-10 max-w-7xl justify-center mx-auto mt-10'>
         <div className=''>
-          <label htmlFor="">Vehicle Loan Amaount</label>
-          <input type="number" name="" id="" />
+          <div className='my-6'>
+            <label htmlFor="" className='w-72 inline-block text-xl '>Vehicle Loan Amaount</label>
+            <input data-tip='doller' type="number" name="" id="" className='h-9 border border-gray-400' />
+          </div>
+          <hr className=' border-gray-400' />
 
-          <label htmlFor="">Down Payment</label>
-          <input type="number" name="" id="" />
+          <div className='my-6'>
+            <label htmlFor="" className='w-72 inline-block text-xl '>Down Payment</label>
+            <input type="number" name="" id="" className='h-9 border border-gray-400' />
+          </div>
+          <hr className='border-gray-400'/>
 
-          <label htmlFor="">Interest rate</label>
-          <input type="number" name="" id="" />
+          <div className='my-6'>
+            <label htmlFor="" className='w-72 inline-block text-xl'>Interest rate</label>
+            <input type="number" name="" id="" className='h-9 border border-gray-400' />
+          </div>
+          <hr className='border-gray-400'/>
 
-          <label htmlFor="">Pay it off on...</label>
-          <input type="number" name="" id="" />
-          <label htmlFor="">Months</label>
+          <div className='my-6'>
+            <label htmlFor="" className='w-72 inline-block text-xl'>Pay it off on...</label>
+            <input type="number" name="" id="" className='h-9 border border-gray-400' />
+            <label htmlFor="">Months</label>
+          </div>
 
-          <input type="range" name="" id="" />
+          <input type="range" name="" id="" className='range-input' />
         </div>
 
+        <div className='w-px h-74 bg-gray-400'></div>
+
         <div>
-          <p>Based on what you entered, your vehicle loan monthly payment is</p>
+          <p className='mx-20 mt-24 max-w-sm text-center '>Based on what you entered, your vehicle loan monthly payment is</p>
+          <p className='text-center text-5xl mt-6'>$50.00</p>
         </div>
 
       </div>
