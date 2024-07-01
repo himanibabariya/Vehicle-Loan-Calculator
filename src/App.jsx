@@ -46,9 +46,8 @@ function App() {
 
       <div className='flex gap-x-10 flex-wrap max-w-7xl justify-center mx-auto mt-20'>
         <div className=''>
-          <div className='my-6 relative'>
+          <div className='my-6 flex flex-wrap'>
             <label htmlFor="loanAmount" className='w-72 inline-block text-xl '>Vehicle Loan Amount</label>
-            {/* <i class="fa-solid fa-dollar-sign text-customRed absolute top-2 text-lg"></i> */}
             <input 
               placeholder='0' 
               type="number" 

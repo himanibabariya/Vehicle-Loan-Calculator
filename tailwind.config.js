@@ -5,12 +5,10 @@ export default {
   theme: {
     extend: {
       colors:{
-        customRed:'#CE1260',
-        customBlue:'#2C2C54'
+        customRed:'#E11444',
+        
       },
-      backgroundImage: {
-        'hero-pattern': "url('/img/hero-pattern.svg')",
-      }
+      
     },
   },
   plugins: [],

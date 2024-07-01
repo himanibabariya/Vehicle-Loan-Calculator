@@ -1,12 +1,10 @@
-.range-input{
-  display: block;
-  width:450px;
-  cursor: pointer;
+label{
+  font-weight: 500;
 }
-/* body{
-background-color: #2C2C54;
-} */
-
+input[type=number]:focus {
+  border: 2px solid #E11444;
+  outline: none;
+}
 .input{
   font-size: 20px;
   width:180px;
@@ -16,12 +14,22 @@ background-color: #2C2C54;
     background-image: url("./assets/images/dollar.svg");
     background-position: left center;
     background-repeat: no-repeat no-repeat;
-    padding-left:1px !important;
-      
+    padding-left:1px !important;    
 }
 .percentage{
   background-image: url("./assets/images/percentage.svg");
   background-position: right center;
   background-repeat: no-repeat no-repeat;
   padding-right:12px !important;
+}
+.range-input{
+  display: block;
+  width:450px;
+  cursor: pointer;
+  accent-color: #E11444;
+  outline: none; 
+}
+
+@media screen {
+  
 }
