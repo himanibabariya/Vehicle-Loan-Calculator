@@ -33,7 +33,7 @@ input[type=number]:focus {
 @media only screen and (max-width: 540px){
   label{
     max-width: 200px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     /* margin-left: 10px; */
   }
   hr{
