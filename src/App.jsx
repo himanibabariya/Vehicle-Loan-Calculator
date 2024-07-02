@@ -93,7 +93,7 @@ function App() {
               name="payoffMonths" 
               value={payoffMonths}
               onChange={(e) => setPayoffMonths(Number(e.target.value))} 
-              className='input h-11 w-24 text-right border border-gray-400 text-customRed' />
+              className='input input-month h-11 w-24 text-right border border-gray-400 text-customRed' />
             <span htmlFor="months" className='ml-6'>Months</span>
           </div>
 

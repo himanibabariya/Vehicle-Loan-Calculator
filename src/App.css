@@ -32,15 +32,19 @@ input[type=number]:focus {
 
 @media only screen and (max-width: 540px){
   label{
-    max-width: 200px;
+    max-width: 120px;
     padding-left: 30px;
     /* margin-left: 10px; */
   }
   .input{
-    width: 120px;
+    /* width: 120px; */
+  }
+  .input-month{
+    width: ;
   }
   hr{
     width: 320px;
+    margin-left: 60px;
   }
   .range-input{
     max-width: 300px;
@@ -50,6 +54,6 @@ input[type=number]:focus {
     padding-right:25px !important;
   }
   .container{
-    margin-bottom: 30px;
+    margin-bottom: 100px;
   }
 }
