@@ -45,7 +45,7 @@ function App() {
       <h1 className='text-3xl text-center mt-16 text-customRed'>Vehicle Loan Calcuator</h1>
       <h3 className='text-lg text-center mt-4'>Make Informed Decisions with Our Vehicle Loan Calculator!</h3>
 
-      <div className='flex gap-x-10 flex-wrap max-w-7xl justify-center mx-auto mt-16'>
+      <div className='container flex gap-x-10 flex-wrap max-w-7xl justify-center mx-auto mt-16'>
         <div>
           <div className='my-6 flex flex-wrap'>
             <label htmlFor="loanAmount" className='w-72 inline-block text-xl '>Vehicle Loan Amount</label>
