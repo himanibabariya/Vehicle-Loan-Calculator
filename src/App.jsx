@@ -45,7 +45,7 @@ function App() {
       <h1 className='text-3xl text-center mt-16 text-customRed'>Vehicle Loan Calcuator</h1>
 
       <div className='flex gap-x-10 flex-wrap max-w-7xl justify-center mx-auto mt-20'>
-        <div className=''>
+        <div>
           <div className='my-6 flex flex-wrap'>
             <label htmlFor="loanAmount" className='w-72 inline-block text-xl '>Vehicle Loan Amount</label>
             <input 
@@ -93,7 +93,7 @@ function App() {
               value={payoffMonths}
               onChange={(e) => setPayoffMonths(Number(e.target.value))} 
               className='input h-11 w-24 text-right border border-gray-400 text-customRed' />
-            <label htmlFor="" className='ml-6'>Months</label>
+            <span htmlFor="months" className='ml-6'>Months</span>
           </div>
 
           <input 
